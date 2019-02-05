@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/npm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NPM"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/kelas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="kelas"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/uts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nilai UTS"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/uas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nilai UAS"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/proses"
+        android:onClick="proses"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:textSize="30dp"
+        android:text="PROSES"
+        android:textStyle="bold"/>
+
+    </LinearLayout>
